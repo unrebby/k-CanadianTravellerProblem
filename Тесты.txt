@@ -1,0 +1,83 @@
+Тест 1:
+Input n (count of vertex):
+4
+Input s (start vertex):
+1
+Input t (finish vertex):
+3
+Input k:
+1
+0 2 1 -1
+2 0 1 1
+1 1 0 3
+-1 1 3 0
+The value of shortest path: 1
+The shortest path: 1 3
+Found a blocked edge: 1 - 3
+The value of shortest path with blocked edges: 3
+The shortest path with blocked edges: 1 2 3
+
+
+Тест 2:
+Input n (count of vertex):
+5
+Input s (start vertex):
+2
+Input t (finish vertex):
+4
+Input k:
+2
+0 1 2 3 4
+1 0 6 7 3
+2 6 0 5 2
+3 7 5 0 1
+4 3 2 1 0
+The value of shortest path: 4
+The shortest path: 2 1 4
+Found a blocked edge: 2 - 1
+Found a blocked edge: 2 - 5
+The value of shortest path with blocked edges: 7
+The shortest path with blocked edges: 2 4
+
+
+Тест 3:
+Input n (count of vertex):
+5
+Input s (start vertex):
+2
+Input t (finish vertex):
+5
+Input k:
+2
+0 1 -1 -1 -1
+1 0 6 7 -1
+-1 6 0 -1 2
+-1 7 -1 0 1
+-1 -1 2 1 0
+The value of shortest path: 8
+The shortest path: 2 3 5
+Found a blocked edge: 2 - 3
+Found a blocked edge: 2 - 4
+The value of shortest path with blocked edges: 1000000000
+The shortest path with blocked edges:
+
+
+Тест 4:
+Input n (count of vertex):
+5
+Input s (start vertex):
+1
+Input t (finish vertex):
+5
+Input k:
+2
+0 1 -1 -1 -1
+1 0 6 7 -1
+-1 6 0 -1 2
+-1 7 -1 0 1
+-1 -1 2 1 0
+The value of shortest path: 9
+The shortest path: 1 2 3 5
+Found a blocked edge: 1 - 2
+The value of shortest path with blocked edges: 1000000000
+The shortest path with blocked edges:
