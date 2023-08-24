@@ -58,8 +58,7 @@ The value of shortest path: 8
 The shortest path: 2 3 5
 Found a blocked edge: 2 - 3
 Found a blocked edge: 2 - 4
-The value of shortest path with blocked edges: 1000000000
-The shortest path with blocked edges:
+No paths from s to t with blocked edges!
 
 
 Тест 4:
@@ -79,5 +78,4 @@ Input k:
 The value of shortest path: 9
 The shortest path: 1 2 3 5
 Found a blocked edge: 1 - 2
-The value of shortest path with blocked edges: 1000000000
-The shortest path with blocked edges:
+No paths from s to t with blocked edges!
